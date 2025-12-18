@@ -7,15 +7,16 @@
 </head>
 <body>
 
-  <h1>MockupGen</h1>
-  <p>Upload product image and generate mockups</p>
+  <div class="app">
+    <h1>MockupGen</h1>
+    <p class="subtitle">Upload 1 product image → get 10 clean mockups</p>
 
-  <input type="file" id="upload" accept="image/*" />
-  <br><br>
+    <input type="file" id="upload" accept="image/*" />
 
-  <button onclick="generateMockups()">Generate Mockups</button>
+    <button onclick="generateMockups()">Generate Mockups</button>
 
-  <div id="preview"></div>
+    <div id="grid" class="grid"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>
